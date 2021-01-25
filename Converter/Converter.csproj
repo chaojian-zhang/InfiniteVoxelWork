@@ -14,8 +14,4 @@
     <EmbeddedResource Include="Data\Colors.txt" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="YamlDotNet" Version="9.1.4" />
-  </ItemGroup>
-
 </Project>

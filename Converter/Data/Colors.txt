@@ -1,3 +1,69 @@
+### Development Test Game Mode
+basenodes:cobble 88 84 82
+basenodes:dirt 95 64 39
+basenodes:dirt_with_grass 66 112 31
+basenodes:mossycobble 86 90 68
+basenodes:stone 97 94 93
+basenodes:sand 214 207 158
+basenodes:desert_sand 159 131 70
+basenodes:junglegrass 63 105 25
+chest_of_everything:chest 140 108 65
+stairs:stair_cobble 88 84 82
+basenodes:desert_stone 129 79 60
+basenodes:gravel 131 131 131
+basenodes:water_source 39 66 106 128
+basenodes:water_flowing 39 66 106 156
+
+### Minetest Game
+mcl_core:acacialeaves 108 147 67
+mcl_core:acaciatree 188 109 90
+mcl_core:birchleaves 70 104 27
+mcl_core:birchtree 218 197 166
+mcl_core:cactus 52 116 15
+mcl_core:cobble 88 84 82
+mcl_core:dirt 95 64 39
+mcl_core:dirt_with_dry_grass 107 65 51
+mcl_core:dirt_with_grass 66 112 31
+mcl_core:dirt_with_grass_snow 224 225 238
+mcl_core:dirt_with_snow 224 225 238
+mcl_core:glass 194 194 227 64
+mcl_core:gravel 131 131 131
+mcl_core:jungleleaves 20 28 15
+mcl_core:junglesapling 48 38 14
+mcl_core:jungletree 105 76 41
+mcl_core:junglewood 54 37 11
+mcl_core:ladder 123 90 34
+mcl_core:lava_flowing 255 100 0
+mcl_core:lava_source 255 100 0
+mcl_core:leaves 34 52 29
+mcl_core:mossycobble 86 90 68
+mcl_core:obsidian 19 21 24
+mcl_core:packed_ice 167 206 247
+mcl_core:podzol 74 38 8
+mcl_core:redsand 206 165 98
+mcl_core:reeds 94 132 33
+mcl_core:sand 214 207 158
+mcl_core:sandstone 197 193 143
+mcl_core:sandstonesmooth 197 193 143
+mcl_core:sandstonesmooth2 197 193 143
+mcl_core:snow 224 225 238
+mcl_core:stone 97 94 93
+mcl_core:stone_with_coal 97 94 93
+mcl_core:stone_with_diamond 97 94 93
+mcl_core:stone_with_gold 97 94 93
+mcl_core:stone_with_iron 97 94 93
+mcl_core:tree 164 131 88
+mcl_core:void 0 0 0
+mcl_core:water_flowing 39 66 106 128
+mcl_core:water_source 39 66 106 128
+mcl_core:wood 128 99 55
+
+### MCLX_CORE?
+mclx_core:river_water_flowing 39 66 106 128
+mclx_core:river_water_source 39 66 106 128
+
+### Others
+
 # beds
 beds:bed_bottom 130 3 3
 beds:bed_top 178 116 116
@@ -21,21 +87,16 @@ mcl_minecarts:rail 143 123 90
 default:acacia_bush_leaves 90 124 55
 default:acacia_bush_sapling 85 118 58
 default:acacia_bush_stem 84 76 69
-mcl_core:acacialeaves 108 147 67
 default:acacia_sapling 87 116 61
-mcl_core:acaciatree 188 109 90
 default:acacia_wood 146 60 37
 default:apple 145 20 9
-mcl_core:birchleaves 70 104 27
 default:aspen_sapling 82 110 43
-mcl_core:birchtree 218 197 166
 default:aspen_wood 209 198 169
 default:bookshelf 128 99 55
 default:brick 117 71 69
 default:bush_leaves 34 52 29
 default:bush_sapling 65 60 40
 default:bush_stem 45 33 23
-mcl_core:cactus 52 116 15
 default:chest 140 108 65
 default:chest_locked 140 108 65
 default:chest_locked_open 140 108 65
@@ -43,9 +104,7 @@ default:chest_open 140 108 65
 mcl_colorblocks:hardened_clay 182 182 182
 default:cloud 255 255 255
 default:coalblock 57 57 57
-mcl_core:cobble 88 84 82
 default:desert_cobble 146 95 76
-mcl_core:redsand 206 165 98
 default:desert_sandstone 195 152 92
 default:desert_sandstone_block 192 151 94
 default:desert_sandstone_brick 191 151 94
@@ -53,13 +112,7 @@ default:desert_stone 129 79 60
 default:desert_stone_block 130 79 60
 default:desert_stonebrick 129 79 60
 default:diamondblock 135 217 223
-mcl_core:dirt 95 64 39
-mcl_core:dirt_with_dry_grass 107 65 51
-mcl_core:dirt_with_grass 66 112 31
 default:dirt_with_grass_footsteps 66 112 31
-mcl_core:podzol 74 38 8
-mcl_core:dirt_with_snow 224 225 238
-mcl_core:dirt_with_grass_snow 224 225 238
 default:dry_grass_1 208 172 87
 default:dry_grass_2 210 174 87
 default:dry_grass_3 210 174 87
@@ -73,41 +126,21 @@ default:fence_pine_wood 221 184 129
 mcl_fences:fence 129 100 55
 default:furnace 100 96 94
 default:furnace_active 100 96 94
-mcl_core:glass 194 194 227 64 16
 default:goldblock 230 201 29
 default:grass_1 97 138 53
 default:grass_2 95 136 54
 default:grass_3 91 133 52
 default:grass_4 86 130 45
 default:grass_5 83 124 47
-mcl_core:gravel 131 131 131
 default:ice 167 206 247
-mcl_core:packed_ice 167 206 247
 default:junglegrass 63 105 25
-mcl_core:jungleleaves 20 28 15
-mcl_core:junglesapling 48 38 14
-mcl_core:jungletree 105 76 41
-mcl_core:junglewood 54 37 11
-mcl_core:ladder 123 90 34
-mcl_core:lava_flowing 255 100 0
-mcl_core:lava_source 255 100 0
-mcl_core:leaves 34 52 29
-mcl_core:mossycobble 86 90 68
-mcl_core:obsidian 19 21 24
 default:obsidian_block 20 22 25
-default:obsidian_glass 19 21 23 64 16
+default:obsidian_glass 19 21 23 64
 default:obsidianbrick 20 22 24
-mcl_core:reeds 94 132 33
 default:pine_needles 13 36 21
 default:pine_sapling 27 48 25
 default:pine_tree 182 155 124
 default:pine_wood 221 184 128
-mclx_core:river_water_flowing 39 66 106 128 224
-mclx_core:river_water_source 39 66 106 128 224
-mcl_core:sand 214 207 158
-mcl_core:sandstone 197 193 143
-mcl_core:sandstonesmooth 197 193 143
-mcl_core:sandstonesmooth2 197 193 143
 default:sandstone_block 195 190 141
 default:sandstonebrick 193 189 140
 default:sapling 65 59 40
@@ -117,32 +150,21 @@ default:silver_sand 193 191 179
 default:silver_sandstone 195 192 181
 default:silver_sandstone_block 192 190 179
 default:silver_sandstone_brick 190 188 178
-mcl_core:snow 224 225 238
 default:snowblock 224 225 238
 default:steelblock 194 194 194
-mcl_core:stone 97 94 93
 default:stone_block 99 96 95
-mcl_core:stone_with_coal 97 94 93
-mcl_core:stone_with_diamond 97 94 93
-mcl_core:stone_with_gold 97 94 93
-mcl_core:stone_with_iron 97 94 93
 default:stonebrick 99 96 95
 mcl_torches:torch 120 98 67
 default:torch_ceiling 120 98 67
 mcl_torches:torch_wall 120 98 67
 default:tree 164 131 88
-mcl_core:tree 164 131 88
-mcl_core:water_flowing 39 66 106 128 224
-mcl_core:water_source 39 66 106 128 224
 default:wood 128 99 55
-mcl_core:wood 128 99 55
-mcl_core:void 0 0 0
 
 # doors
-doors:door_glass_a 184 184 216 64 16
-doors:door_glass_b 184 184 216 64 16
-doors:door_obsidian_glass_a 27 28 29 64 16
-doors:door_obsidian_glass_b 27 28 29 64 16
+doors:door_glass_a 184 184 216 64
+doors:door_glass_b 184 184 216 64
+doors:door_obsidian_glass_a 27 28 29 64
+doors:door_obsidian_glass_b 27 28 29 64
 doors:door_steel_a 201 201 201
 doors:door_steel_b 201 201 201
 doors:door_wood_a 87 67 35

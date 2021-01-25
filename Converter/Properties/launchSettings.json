@@ -2,7 +2,7 @@
   "profiles": {
     "Converter": {
       "commandName": "Project",
-      "commandLineArgs": "E:\\Softwares\\minetest-5.3.0-win64\\worlds\\TestBench_01_DT_Seed1\\regions\\small.re E:\\Softwares\\minetest-5.3.0-win64\\worlds\\TestBench_01_DT_Seed1\\regions\\small.xraw"
+      "commandLineArgs": "E:\\Softwares\\minetest-5.3.0-win64\\worlds\\TestBench_01_DT_Seed1\\regions\\large.re E:\\Softwares\\minetest-5.3.0-win64\\worlds\\TestBench_01_DT_Seed1\\regions\\large.xraw"
     }
   }
 }
