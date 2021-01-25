@@ -6,7 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data\colors.txt" />
     <None Remove="Program.cs~RF2b33d46.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\Colors.txt" />
   </ItemGroup>
 
   <ItemGroup>
