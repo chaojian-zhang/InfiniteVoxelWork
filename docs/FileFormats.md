@@ -3,6 +3,8 @@
 XRAW format is simply: a header + a 3d index array + a palette array.
 For 16-bit xraw format, just set num bits of index to 16, use 32768 palette, and ~0 for empty voxels.
 
+[It seemed](https://twitter.com/ephtracy/status/687051581859168256) the editor can support either import/export of 8-bit version for `.xraw` format ("*Type `o xraw` in MagicaVoxel command line to export volume data as .xraw file*" - [here](https://github.com/hiroakioishi/VoxelizeMagicaVoxelXRawData)); 16-bit version is for the standalone viewer.
+
 Notice for multi-byte values, it's in **little-endian**. For instance, byte sequence `2000 0000` stands for *32*, and `0080 0000` stands for *32768*.
 
 Notice depends on field value for "**bits per index**" (and maybe **num of palette colors**), the convention for color index reference in Voxel buffer is different! See detailed explanations in examples below.
@@ -57,11 +59,11 @@ A example of no color palette ([basic_no_palette.xraw](../examples/basic_no_pale
 00 04 08 00
 # Size: 2x2x1 - 256 Colors
 02000000
-01000000
 02000000
+01000000
 00010000
 
-# Voxel Buffer
+# Voxel Buffer (Currently this format is not working, cannot guess the binary layout for this section in this circumstance)
 # First width row
 FFFFFFAA FFFFFFFF
 # Second width row
@@ -84,7 +86,7 @@ An example of 256 color palette ([simple_256_palette.xraw](../examples/basic_no_
 01000000
 00010000
 
-# Voxel Buffer
+# Voxel Buffer: Every voxel is 8 bits (1 byte)
 # First width row
 # (Color index + 1) # A value of 0 denote empty, so color index is offset by 1; A value of 1 denote the second color; A value of 255 denote last color.
 0100
