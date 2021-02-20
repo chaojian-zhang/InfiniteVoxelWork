@@ -3,7 +3,7 @@ A voxel workflow integrating Minetest for editing and MagicaVoxel for visualizat
 
 # Converter
 
-This implementation reads in a Minetest WorldEdit exported `.we` format (YAML with custom version header) and exports it into a MagicaVoxelViewer `.xraw` format.
+This implementation reads in a Minetest [RegionExport](https://github.com/Charles-Zhang-Minetest/RegionExport) exported `.re` format (YAML with custom version header) and exports it into a MagicaVoxelViewer `.xraw` format.
 
 # Notes
 
