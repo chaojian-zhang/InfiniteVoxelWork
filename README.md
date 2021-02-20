@@ -1,6 +1,10 @@
 # InfiniteVoxelWork
 A voxel workflow integrating Minetest for editing and MagicaVoxel for visualization, with a 256 custom game mode pallette.
 
+# Converter
+
+This implementation reads in a Minetest WorldEdit exported `.we` format (YAML with custom version header) and exports it into a MagicaVoxelViewer `.xraw` format.
+
 # Notes
 
 * (issue) Currently ExportRegion's output axis is not matching expected MagicaVoxel Viewer orientation - however this concerns byte layout so it's requires a bit thinking to fix it.
